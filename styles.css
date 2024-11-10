@@ -1,0 +1,33 @@
+h1 {
+font-family: 'papyrus';
+    background-color: #4ca75e;
+    color: #6f0f69;
+    text-align: center;
+    
+    }
+ 
+nav {
+    background-color: #4ca75e;
+    color:#6f0f69;
+    font-family: 'monaco';
+    text-align:center
+
+}
+main {
+    color: #6f0f69;
+    font-family: 'monaco';
+    text-align:center
+    }
+    #intro {
+
+        border: 3px dotted rgb(128, 0, 0);
+        
+        }
+        .even {
+
+            background-color: #bbbbbb;
+            
+            }
+            body {
+                background-color: #4ca75e;
+              }
