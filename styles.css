@@ -1,8 +1,10 @@
 h1 {
-font-family: 'papyrus';
+font-family: 'Edu AU VIC WA NT Pre';
+font-weight: 700;
     background-color: #4ca75e;
     color: #6f0f69;
     text-align: center;
+    
     
     }
  
@@ -17,6 +19,7 @@ main {
     color: #6f0f69;
     font-family: 'monaco';
     text-align:center
+    
     }
     #intro {
 
@@ -31,3 +34,6 @@ main {
             body {
                 background-color: #4ca75e;
               }
+             
+              
+             
