@@ -13,6 +13,7 @@ nav {
     color:#6f0f69;
     font-family: 'papyrus';
     font-size: large;
+    border: 4px double rgb(198, 19, 130);
     text-align:center
 
 }
