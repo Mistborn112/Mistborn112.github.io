@@ -47,6 +47,21 @@ footer {
     background-color: #2ace4b;
     color: #6f0f69;
 }
+.morning {
+    color: #e98e47;
+    background-color: #4ca75e;
+  }
+  
+  .afternoon {
+    color: #dbec48;
+    background-color: #4ca75e;
+  }
+  
+  .evening {
+    color: #b70b44;
+    background-color: #4ca75e;
+  }
+  
              
               
              
