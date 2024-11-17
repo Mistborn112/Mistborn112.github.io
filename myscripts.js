@@ -1,14 +1,8 @@
 const currentYear = new Date().getFullYear();
-
 const footerYearElement = document.getElementById('currentYear');
-
 footerYearElement.textContent = currentYear;
-
 let currentTime = new Date();
-
 let hours = currentTime.getHours();
-
-
 let greetingElement = document.getElementById('greeting');
 
 if (hours < 12) {
@@ -24,7 +18,12 @@ if (hours < 12) {
 
 
 const button = document.getElementById('btn-alert');
-
+button.onmouseover = function() {
+    button.innerHTML = 'Helloooo!';
+};
+button.onmouseout = function() {
+    button.innerHTML = 'Click Me';
+};
 button.addEventListener('click', function() {
     
     alert('Hello world!');
