@@ -28,3 +28,17 @@ button.addEventListener('click', function() {
     
     alert('Hello world!');
 });
+
+
+const numbersList = document.getElementById('numbers');
+
+
+for (let i = 1; i <= 12; i++) {
+    const listItem = document.createElement('li');
+    if (i % 2 === 0) {
+        listItem.textContent = 'even';
+    } else {
+        listItem.textContent = 'odd';
+    }
+    numbersList.appendChild(listItem);
+}
