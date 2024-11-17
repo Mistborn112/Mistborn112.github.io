@@ -21,3 +21,11 @@ if (hours < 12) {
   greetingElement.innerText = "Good evening!";
   greetingElement.classList.add('evening');
 }
+
+
+const button = document.getElementById('btn-alert');
+
+button.addEventListener('click', function() {
+    
+    alert('Hello world!');
+});
